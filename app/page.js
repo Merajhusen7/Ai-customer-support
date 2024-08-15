@@ -91,6 +91,13 @@ export default function Home() {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
+
+      sx={{
+        backgroundImage: 'url(/bgimage.jpg)', // Path to the image
+        backgroundSize: 'cover', // Makes sure the image covers the entire screen
+        backgroundPosition: 'center', // Centers the image
+        backgroundRepeat: 'no-repeat', // Prevents the image from repeating
+      }}
     >
       <Stack
         direction={'column'}
